@@ -1,4 +1,4 @@
-import {PURPLE, COMMENT} from '../../helpers/colors'
+import {PURPLE} from '../../helpers/colors'
 
 const SearchContact = () => {
   return (
@@ -13,7 +13,6 @@ const SearchContact = () => {
       <input
         dir="rtl"
         type="text"
-        style={{ backgroundColor: COMMENT, borderColor: "purple" }}
         className="form-control"
         placeholder="جستجوی مخاطب"
         aria-label="Search"
